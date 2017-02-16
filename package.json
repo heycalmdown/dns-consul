@@ -1,0 +1,22 @@
+{
+  "name": "dns-consul",
+  "version": "1.0.0",
+  "description": "DNS monkey patching for Consul",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spearhead-ea/dns-consul.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spearhead-ea/dns-consul/issues"
+  },
+  "homepage": "https://github.com/spearhead-ea/dns-consul#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
