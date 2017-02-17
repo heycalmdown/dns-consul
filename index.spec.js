@@ -22,7 +22,7 @@ function lookupTest(host, result) {
     });
 }
 
-describe('dns-consul', () => {
+describe('lookup', () => {
     it('should bypass ip addresses', spec(() => {
         return lookupTest('0.0.0.0', '0.0.0.0')
             .then(() => lookupTest('8.8.8.8', '8.8.8.8'));
@@ -55,4 +55,12 @@ describe('convert()', () => {
         expect(convert('')).toBeUndefined();
         expect(convert(',')).toBeUndefined();
     })
+});
+
+describe('', () => {
+    it('should handle udp bind', (done) => {
+        const dgram = require('dgram');
+        const socket = dgram.createSocket('udp4');
+        expect(() => socket.bind(8888, done)).not.toThrow();
+    });
 });
