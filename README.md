@@ -15,4 +15,4 @@ require('dns-consul');
 
 Variable           | Notes
 ------------------ | -----
-DNS_CONSUL_SERVERS | Comma separated DNS server addresses
+DNS_CONSUL_SERVERS | Comma separated DNS server IP addresses
