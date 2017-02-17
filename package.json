@@ -1,6 +1,6 @@
 {
   "name": "dns-consul",
-  "version": "1.0.0",
+  "version": "1.0.0-dev",
   "description": "DNS monkey patching for Consul",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/spearhead-ea/dns-consul.git"
   },
-  "author": "",
+  "author": "heycalmdown <hey.calmdown@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/spearhead-ea/dns-consul/issues"
