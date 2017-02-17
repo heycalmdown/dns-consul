@@ -13,6 +13,6 @@ require('dns-consul');
 
 ## Environment Variables
 
-Variable           | Notes
------------------- | -----
-DNS_CONSUL_SERVERS | Comma separated DNS server IP addresses
+Variable             | Notes
+-------------------- | -----
+`DNS_CONSUL_SERVERS` | Comma separated DNS server IP addresses
