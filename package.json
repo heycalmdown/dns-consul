@@ -2,9 +2,9 @@
   "name": "dns-consul",
   "version": "1.0.0-dev",
   "description": "DNS monkey patching for Consul",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "jasmine index.spec.js"
+    "test": "jasmine lib/index.spec.js"
   },
   "repository": {
     "type": "git",
