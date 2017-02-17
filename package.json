@@ -1,6 +1,6 @@
 {
   "name": "dns-consul",
-  "version": "1.0.0-dev",
+  "version": "1.0.0",
   "description": "DNS monkey patching for Consul",
   "main": "lib/index.js",
   "scripts": {
