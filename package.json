@@ -1,6 +1,6 @@
 {
   "name": "dns-consul",
-  "version": "1.0.0",
+  "version": "1.0.99-edge-lts.2",
   "description": "DNS monkey patching for Consul",
   "main": "lib/index.js",
   "scripts": {
